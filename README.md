@@ -19,8 +19,6 @@ You have been hired as a Data Analyst for *Taste of the World Café*. Your job i
 
 - **MySQL** for querying and analyzing data.
 
-### Key Queries
-
-1. **Explore Menu Items**:
-   ```sql
-   SELECT * FROM menu_items;
+## Contact
+For further inquiries, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/faiq-syed-7494b5197/).
+   
