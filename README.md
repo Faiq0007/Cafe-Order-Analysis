@@ -2,22 +2,42 @@
 
 ## Project Overview
 
-This project analyzes customer order data from *Taste of the World Café*, a restaurant known for its diverse and generous portions. The café introduced a new menu at the beginning of the year, and I was tasked with evaluating customer responses to the menu items. This project was completed as part of a **Maven Analytics** course.
+This project is focused on analyzing customer order data for *Taste of the World Café*, a popular restaurant known for offering a wide range of dishes from different parts of the world. At the start of the year, the café launched a brand-new menu, and the management wants to assess customer reactions to this new offering.
 
-### Scenario
+As a **Data Analyst**, my task was to analyze the menu items and customer order data to identify:
+1. Which menu items are performing well or poorly.
+2. What the top customers seem to favor the most.
 
-You have been hired as a Data Analyst for *Taste of the World Café*. Your job is to analyze customer order data to:
-1. Identify which new menu items are performing well or poorly.
-2. Discover what the top customers prefer.
+This project was part of a **Maven Analytics** course, designed to provide hands-on experience with SQL and real-world business scenarios.
 
-### Data
+## Scenario
 
-- **`menu_items`**: Contains details of the new menu.
-- **`order_details`**: Records customer orders, including items, quantities, and dates.
+As the Data Analyst for the *Taste of the World Café*, you have been tasked with helping the management understand how the new menu is being received by the customers. Using the available data, you will:
+- Explore the **menu_items** table to understand what's available on the new menu.
+- Investigate the **order_details** table to see customer order patterns.
+- Combine data from both tables to uncover key insights into which items are most popular, which are underperforming, and what the top customers are ordering the most.
 
-### Tools
+## Datasets
 
-- **MySQL** for querying and analyzing data.
+### 1. `menu_items` Table
+This table contains information about the new menu introduced at the start of the year, including:
+- **item_id**: Unique identifier for each menu item.
+- **item_name**: The name of the menu item.
+- **category**: The type of dish (e.g., appetizers, entrees, desserts).
+- **price**: Price of each menu item.
+
+### 2. `order_details` Table
+This table records every order made by customers, including:
+- **order_id**: Unique identifier for each order.
+- **customer_id**: Unique identifier for each customer.
+- **item_id**: The menu item ordered.
+- **quantity**: The number of units of a particular item in each order.
+- **order_date**: The date when the order was placed.
+
+## Tools Used
+
+- **MySQL**: All data analysis and insights were derived using SQL queries to extract meaningful patterns and trends from the data.
+- **Maven Analytics**: Platform used for project resources and guidance.
 
 ## Contact
 For further inquiries, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/faiq-syed-7494b5197/).
